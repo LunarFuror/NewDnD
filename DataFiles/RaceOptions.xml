@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <RaceOptions>
 	<race id="Aarakocra">
 		<name>Aarakocra</name>
@@ -39,16 +40,47 @@
 		<extra>Breath Weapon</extra>
 		<extra>Damage Resistance</extra>
 		<source>PHB</source>
-		<color>Black</color>
-		<color>Blue</color>
-		<color>Red</color>
-		<color>Green</color>
-		<color>White</color>
-		<color>Brass</color>
-		<color>Bronze</color>
-		<color>Copper</color>
-		<color>Gold</color>
-		<color>Silver</color>
+		
+		<subRace id="Black Dragonborn">
+			<name>Black Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Blue Dragonborn">
+			<name>Blue Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Red Dragonborn">
+			<name>Red Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Green Dragonborn">
+			<name>Green Dragonborn</name>
+		</subRace>
+	
+		<subRace id="White Dragonborn">
+			<name>White Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Brass Dragonborn">
+			<name>Brass Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Bronze Dragonborn">
+			<name>Bronze Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Copper Dragonborn">
+			<name>Copper Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Gold Dragonborn">
+			<name>Gold Dragonborn</name>
+		</subRace>
+	
+		<subRace id="Silver Dragonborn">
+			<name>Silver Dragonborn</name>
+		</subRace>
+	
 	</race>
 	
 	<race id="Dwarf">
@@ -65,19 +97,19 @@
 		<extra>Stone-Cunning</extra>
 		<source>PHB</source>
 		
-		<subrace id="Hill Dwarf">
+		<subRace id="Hill Dwarf">
 			<name>Hill Dwarf</name>
 			<bonusInt>1</bonusInt>
 			<extra>Dwarven Toughness</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Mountain Dwarf">
+		<subRace id="Mountain Dwarf">
 			<name>Mountain Dwarf</name>
 			<bonusStr>2</bonusStr>
 			<extra>Dwarven Armour Training</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Duergar">
+		<subRace id="Duergar">
 			<name>Duergar</name>
 			<language>Undercommon</language>
 			<bonusStr>1</bonusStr>
@@ -86,7 +118,7 @@
 			<extra>Duergar Magic</extra>
 			<extra>Sunlight Sensitivity</extra>
 			<source>SCAG</source>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Elf">
@@ -102,7 +134,7 @@
 		<extra>Trance</extra>
 		<source>PHB</source>
 		
-		<subrace id="Drow">
+		<subRace id="Drow">
 			<name>Drow</name>
 			<language>Drow Hand Signs</language>
 			<bonusCha>1</bonusCha>
@@ -110,31 +142,31 @@
 			<extra>Sunlight Sensitivity</extra>
 			<extra>Drow Magic</extra>
 			<extra>Drow Weapons Training</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Eladrin">
+		<subRace id="Eladrin">
 			<name>Eladrin</name>
 			<bonusInt>1</bonusInt>
 			<extra>Elf Weapon Training</extra>
 			<extra>Fey Step</extra>
 			<source>DMG</source>
-		</subrace>
+		</subRace>
 		
-		<subrace id="High Elf">
+		<subRace id="High Elf">
 			<name>High Elf</name>
 			<language>+1 Language</language>
 			<bonusInt>1</bonusInt>
 			<extra>Elf Weapon Training</extra>
 			<extra>+1 Cantrip</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Wood Elf">
+		<subRace id="Wood Elf">
 			<name>Wood Elf</name>
 			<speed>5</speed>
 			<bonusWis>1</bonusWis>
 			<extra>Elf Weapon Training</extra>
 			<extra>Mask of the Wild</extra>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Genasi">
@@ -146,35 +178,35 @@
 		<bonusCon>2</bonusCon>
 		<source>ELM</source>
 		
-		<subrace id="Air Genasi">
+		<subRace id="Air Genasi">
 			<name>Air Genasi</name>
 			<bonusDex>1</bonusDex>
 			<extra>Unending Breath</extra>
 			<extra>Mingle with the Wind</extra>
-		</subrace>
+		</subRace>
 				
-		<subrace id="Earth Genasi">
+		<subRace id="Earth Genasi">
 			<name>Earth Genasi</name>
 			<bonusStr>1</bonusStr>
 			<extra>Earth Walk</extra>
 			<extra>Merge with Stone</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Fire Genasi">
+		<subRace id="Fire Genasi">
 			<name>Fire Genasi</name>
 			<bonusInt>1</bonusInt>
 			<extra>Darkvision</extra>
 			<extra>Fire Resistance</extra>
 			<extra>Reach to the Blaze</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Water Genasi">
+		<subRace id="Water Genasi">
 			<name>Water Genasi</name>
 			<bonusWis>1</bonusWis>
 			<extra>Acid Resistance</extra>
 			<extra>Amphibious</extra>
 			<extra>Call to the Wave</extra>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Gnome">
@@ -188,7 +220,7 @@
 		<extra>Gnome Cunning</extra>
 		<source>PHB</source>
 		
-		<subrace id="Deep Gnome">
+		<subRace id="Deep Gnome">
 			<name>Deep Gnome</name>
 			<language>Undercommon</language>
 			<bonusDex>1</bonusDex>
@@ -196,21 +228,21 @@
 			<extra>Stone Camoflague</extra>
 			<extra>Svirfneblin Magic</extra>
 			<source>ELM</source>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Forest Gnome">
+		<subRace id="Forest Gnome">
 			<name>Forest Gnome</name>
 			<bonusDex>1</bonusDex>
 			<extra>Minor Illusion Cantrip</extra>
 			<extra>Speak with Small Beasts</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Rock Gnome">
+		<subRace id="Rock Gnome">
 			<name>Rock Gnome</name>
 			<bonusCon>1</bonusCon>
 			<extra>Artificer's Lore</extra>
 			<extra>Tinker</extra>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Goliath">
@@ -240,24 +272,24 @@
 		<extra>Halfling Nimbleness</extra>
 		<source>PHB</source>
 		
-		<subrace id="Lightfoot Halfling">
+		<subRace id="Lightfoot Halfling">
 			<name>Lightfoot Halfling</name>
 			<bonusCha>1</bonusCha>
 			<extra>Naturally Stealthy</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Stout Halfling">
+		<subRace id="Stout Halfling">
 			<name>Stout Halfling</name>
 			<bonusCon>1</bonusCon>
 			<extra>Stout Resilience</extra>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Ghostwise Halfling">
+		<subRace id="Ghostwise Halfling">
 			<name>Ghostwise Halfling</name>
 			<language>Silent Speech</language>
 			<bonusWis>1</bonusWis>
 			<source>SCAG</source>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Half-Elf">
@@ -274,43 +306,43 @@
 		<extra>Skill Versatility</extra>
 		<source>PHB</source>
 		
-		<subrace id="Half Wood Elf">
+		<subRace id="Half Wood Elf">
 			<name>Half Wood Elf</name>
 			<extra>-Skill Versatility</extra>
 			<extraChoice>Elf Weapon Training</extraChoice>
 			<extraChoice>Fleet of Foot</extraChoice>
 			<extraChoice>Mask of the Wild</extraChoice>
-		<source>SCAG</source>
-		</subrace>
+			<source>SCAG</source>
+		</subRace>
 		
-		<subrace id="Half Moon Elf">
+		<subRace id="Half Moon Elf">
 			<name>Half Moon Elf</name>
 			<extra>-Skill Versatility</extra>
 			<extraChoice>Elf Weapon Training</extraChoice>
 			<extraChoice>+1 Cantrip</extraChoice>
 			<source>SCAG</source>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Half Sun Elf">
+		<subRace id="Half Sun Elf">
 			<name>Half Sun Elf</name>
 			<extra>-Skill Versatility</extra>
 			<extraChoice>Elf Weapon Training</extraChoice>
 			<extraChoice>+1 Cantrip</extraChoice>
 			<source>SCAG</source>
-		</subrace>
+		</subRace>
 				
-		<subrace id="Half Drow">
+		<subRace id="Half Drow">
 			<name>Half Drow</name>
 			<extra>-Skill Versatility</extra>
 			<extra>Drow Magic</extra>
 			<source>SCAG</source>
-		</subrace>
+		</subRace>
 		
-		<subrace id="Half Aquatic Elf">
+		<subRace id="Half Aquatic Elf">
 			<name>Half Aquatic Elf</name>
 			<speed>30S</speed>
 			<source>SCAG</source>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Half-Orc">
@@ -342,7 +374,7 @@
 		<bonusCha>1</bonusCha>
 		<source>PHB</source>
 		
-		<subrace id="Human Variant">
+		<subRace id="Human Variant">
 			<name>Human Variant</name>
 			<bonusStr>-1</bonusStr>
 			<bonusDex>-1</bonusDex>
@@ -354,7 +386,7 @@
 			<extra>+1 ASI</extra>
 			<extra>+1 Skill</extra>
 			<extra>+1 Feat</extra>
-		</subrace>
+		</subRace>
 	</race>
 	
 	<race id="Tiefling">
