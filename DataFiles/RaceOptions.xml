@@ -382,8 +382,7 @@
 			<bonusInt>-1</bonusInt>
 			<bonusWis>-1</bonusWis>
 			<bonusCha>-1</bonusCha>
-			<extra>+1 ASI</extra>
-			<extra>+1 ASI</extra>
+			<extra>2x +1 ASI</extra>
 			<extra>+1 Skill</extra>
 			<extra>+1 Feat</extra>
 		</subRace>

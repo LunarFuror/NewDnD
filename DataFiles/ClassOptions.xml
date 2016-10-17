@@ -122,4 +122,33 @@
 			<rages>Unlimited</rages>
 		</level>
 	</class>
+	
+	<class id="Bard">
+		<name>Bard</name>
+		<hitDice>1d8</hitDice>
+		<startingHP>8 + Con</startingHP>
+		<perLevelHP>5</perLevelHP>
+		<proficiency>Light Armor</proficiency>
+		<proficiency>Simple Weapons</proficiency>
+		<proficiency>Hand Crossbows</proficiency>
+		<proficiency>Longswords</proficiency>
+		<proficiency>Rapiers</proficiency>
+		<proficiency>Shortswords</proficiency>
+		<proficiency>+1 Instrument</proficiency>
+		<proficiency>+1 Instrument</proficiency>
+		<proficiency>+1 Instrument</proficiency>
+		<savingThrow>Dexterity</savingThrow>
+		<savingThrow>Charisma</savingThrow>
+		<skills>3</skills>
+		<skillChoice>All</skillChoice>
+		<equipmentChoiceA id="1">Rapier</equipmentChoiceA>
+		<equipmentChoiceB id="1">Longsword</equipmentChoiceB>
+		<equipmentChoiceC id="1">Simple Weapon</equipmentChoiceC>
+		<equipmentChoiceA id="2">Diplomat's Pack</equipmentChoiceA>
+		<equipmentChoiceB id="2">Entertainer's Pack</equipmentChoiceB>
+		<equipmentChoiceA id="3">Lute</equipmentChoiceA>
+		<equipmentChoiceB id="3">Instrument</equipmentChoiceB>
+		<equipment>Explorer's Pack</equipment>
+		<equipment>4x Javelin</equipment>
+	</class>
 </classOptions>

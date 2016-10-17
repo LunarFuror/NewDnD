@@ -11,7 +11,7 @@ import org.w3c.dom.NodeList;
 public class main {
 	public static void main(String[] args){
 		try {
-			File fXmlFile = new File("C:/Users/glorenz/workspace/NewDnD/DataFiles/RaceOptions.xml");
+			File fXmlFile = new File("DataFiles/RaceOptions.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(fXmlFile);
