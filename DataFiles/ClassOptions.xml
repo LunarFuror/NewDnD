@@ -1,0 +1,125 @@
+<classOptions>
+	<class id="Barbarian">
+		<name>Barbarian</name>
+		<hitDice>1d12</hitDice>
+		<startingHP>12 + Con</startingHP>
+		<perLevelHP>7</perLevelHP>
+		<proficiency>Light Armor</proficiency>
+		<proficiency>Medium Armor</proficiency>
+		<proficiency>Shields</proficiency>
+		<proficiency>Simple Weapons</proficiency>
+		<proficiency>Martial Weapons</proficiency>
+		<savingThrow>Strength</savingThrow>
+		<savingThrow>Constitution</savingThrow>
+		<skills>2</skills>
+		<skillChoice>Animal Handling</skillChoice>
+		<skillChoice>Athletics</skillChoice>
+		<skillChoice>Intimidation</skillChoice>
+		<skillChoice>Nature</skillChoice>
+		<skillChoice>Perception</skillChoice>
+		<skillChoice>Survival</skillChoice>
+		<equipmentChoiceA id="1">Greataxe</equipmentChoiceA>
+		<equipmentChoiceB id="1">Martial Weapon</equipmentChoiceB>
+		<equipmentChoiceA id="2">2x Handaxe</equipmentChoiceA>
+		<equipmentChoiceB id="2">Simple Weapon</equipmentChoiceB>
+		<equipment>Explorer's Pack</equipment>
+		<equipment>4x Javelin</equipment>
+		
+		<level id="1">
+			<proficiency>2</proficiency>
+			<feature>Rage</feature>
+			<feature>Unarmored Defense</feature>
+			<rages>2</rages>
+			<rageDamage>2</rageDamage>
+		</level>
+		
+		<level id="2">
+			<feature>Reckless Attack</feature>
+			<feature>Danger Sense</feature>
+		</level>
+		
+		<level id="3">
+			<feature>Primal Path</feature>
+			<rages>3</rages>
+		</level>
+		
+		<level id="4">
+			<feature>Ability Score Improvement</feature>
+		</level>
+		
+		<level id="5">
+			<proficiency>3</proficiency>
+			<feature>Extra Attack</feature>
+			<feature>Fast Movement</feature>
+		</level>
+		
+		<level id="6">
+			<feature>Path Feature</feature>
+			<rages>4</rages>
+		</level>
+		
+		<level id="7">
+			<feature>Feral Instinct</feature>
+		</level>
+		
+		<level id="8">
+			<feature>Ability Score Improvement</feature>
+		</level>
+		
+		<level id="9">
+			<proficiency>4</proficiency>
+			<feature>Brutal Critical</feature>
+			<rageDamage>3</rageDamage>
+		</level>
+		
+		<level id="10">
+			<feature>Path Feature</feature>
+		</level>
+		
+		<level id="11">
+			<feature>Relentless Rage</feature>
+		</level>
+		
+		<level id="12">
+			<feature>Ability Score Improvement</feature>
+			<rages>5</rages>
+		</level>
+		
+		<level id="13">
+			<proficiency>5</proficiency>
+			<feature>Brutal Critical</feature>
+		</level>
+		
+		<level id="14">
+			<feature>Path Feature</feature>
+		</level>
+		
+		<level id="15">
+			<feature>Persistent Rage</feature>
+		</level>
+		
+		<level id="16">
+			<feature>Ability Score Improvement</feature>
+			<rageDamage>4</rageDamage>
+		</level>
+		
+		<level id="17">
+			<proficiency>6</proficiency>
+			<feature>Brutal Critical</feature>
+			<rages>6</rages>
+		</level>
+		
+		<level id="18">
+			<feature>Indomitable Might</feature>
+		</level>
+		
+		<level id="19">
+			<feature>Ability Score Improvement</feature>
+		</level>
+		
+		<level id="20">
+			<feature>Primal Champion</feature>
+			<rages>Unlimited</rages>
+		</level>
+	</class>
+</classOptions>

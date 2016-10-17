@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<RaceOptions>
+<raceOptions>
 	<race id="Aarakocra">
 		<name>Aarakocra</name>
 		<size>M</size>
@@ -402,4 +402,4 @@
 		<extra>Hellish Legacy</extra>
 		<source>PHB</source>
 	</race>
-</RaceOptions>
+</raceOptions>
